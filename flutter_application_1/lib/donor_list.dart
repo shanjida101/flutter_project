@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'donar_details.dart'; // Import the DonorDetailsScreen
 
 class DonorListScreen extends StatelessWidget {
   final List<Map<String, String>> donors = [
@@ -42,7 +42,7 @@ class DonorListScreen extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) =>
-                        //DonorDetailsScreen(donor: donors[index]),
+                        DonorDetailsScreen(donor: donors[index]),
                   ),
                 );
               },
