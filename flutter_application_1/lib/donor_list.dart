@@ -10,7 +10,7 @@ class DonorListScreen extends StatelessWidget {
       'address': 'Dhaka'
     },
     {
-      'name': 'shorna',
+      'name': 'SHANJIDA',
       'group': 'A+',
       'mobile': '0987654321',
       'address': 'Chittagong'
