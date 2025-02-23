@@ -16,10 +16,7 @@ class BloodDonationApp extends StatelessWidget {
   }
 }
 
-<<<<<<< Updated upstream
-=======
 // Home Page
->>>>>>> Stashed changes
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -30,11 +27,7 @@ class _HomePageState extends State<HomePage> {
 
   static List<Widget> _pages = [
     WelcomeScreen(),
-<<<<<<< Updated upstream
-    //DonorListScreen(), // Connect to Donor List Page
-=======
     DonorListScreen(),
->>>>>>> Stashed changes
     ProfileScreen(),
   ];
 
@@ -58,8 +51,6 @@ class _HomePageState extends State<HomePage> {
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.red,
         onTap: _onItemTapped,
-<<<<<<< Updated upstream
-=======
       ),
     );
   }
@@ -153,29 +144,11 @@ class DonorDetailsScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 18)),
           ],
         ),
->>>>>>> Stashed changes
       ),
     );
   }
 }
 
-<<<<<<< Updated upstream
-// Welcome Page
-class WelcomeScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text(
-        'Welcome to Blood Donors Community',
-        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-        textAlign: TextAlign.center,
-      ),
-    );
-  }
-}
-
-=======
->>>>>>> Stashed changes
 // Profile Page
 class ProfileScreen extends StatelessWidget {
   @override
