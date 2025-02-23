@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+<<<<<<< Updated upstream
 import 'donor_list.dart'; // Import the Donor List Screen
 
+=======
+import 'donar_list.dart';
+>>>>>>> Stashed changes
 void main() {
   runApp(BloodDonationApp());
 }
