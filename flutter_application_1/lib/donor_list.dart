@@ -4,19 +4,19 @@ import 'donar_details.dart'; // Import the DonorDetailsScreen
 class DonorListScreen extends StatelessWidget {
   final List<Map<String, String>> donors = [
     {
-      'name': 'Trajib',
+      'name': 'sabrin',
       'group': 'O+',
       'mobile': '1234567890',
       'address': 'Dhaka'
     },
     {
-      'name': 'Rahim',
+      'name': 'shorna',
       'group': 'A+',
       'mobile': '0987654321',
       'address': 'Chittagong'
     },
     {
-      'name': 'Karim',
+      'name': 'liza',
       'group': 'B+',
       'mobile': '1122334455',
       'address': 'Khulna'
