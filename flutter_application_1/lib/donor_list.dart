@@ -16,7 +16,7 @@ class DonorListScreen extends StatelessWidget {
       'address': 'Chittagong'
     },
     {
-      'name': 'liza',
+      'name': 'lizaflutter ',
       'group': 'B+',
       'mobile': '1122334455',
       'address': 'Khulna'
